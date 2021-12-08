@@ -576,7 +576,6 @@ public class TestHBaseConnector
         hConnector.getSplitManager();
         hConnector.getPageSourceProvider();
         hConnector.getPageSinkProvider();
-        hConnector.getPageSinkProvider();
         assertEquals(hConnector.getTableProperties().size(), 8);
         assertEquals(hConnector.getColumnProperties().size(), 2);
     }
